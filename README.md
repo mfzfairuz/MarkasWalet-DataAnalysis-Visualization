@@ -27,27 +27,31 @@ The dataset consists of order transactions with various attributes such as produ
 ## Installation
 
 To run the analysis, you need to have Python and Jupyter Notebook installed. You can install the required packages using the following command:
-
-```bash
 pip install pandas numpy scipy matplotlib seaborn
 
-Analysis
+## Analysis
+
 The analysis is divided into several sections:
 
-1. Data Preprocessing: Cleaning and preparing the data for analysis.
-2. Exploratory Data Analysis (EDA): Visualizing the data to understand the distribution and relationships between variables.
-3. Statistical Analysis: Performing inferential statistics to test hypotheses and draw conclusions.
-4. Insights and Recommendations: Providing actionable insights based on the analysis.
+- **Data Preprocessing**: Cleaning and preparing the data for analysis.
+- **Exploratory Data Analysis (EDA)**: Visualizing the data to understand the distribution and relationships between variables.
+- **Statistical Analysis**: Performing inferential statistics to test hypotheses and draw conclusions.
+- **Insights and Recommendations**: Providing actionable insights based on the analysis.
 
-Results
-Key Insights:
-1. Repeat Orders: Analysis of customer repeat orders and identification of factors influencing repeat purchases.
-2. Marketing Performance: Evaluation of marketing campaigns, sources, and content effectiveness in driving sales.
-3. Operational Efficiency: Analysis of shipping costs and payment methods to identify opportunities for cost optimization.
-4. Statistical Tests:
-a. Chi-Square Test: To examine the association between utm_content and status.
-b. ANOVA: To compare the average net_revenue across different utm_campaign_type.
-c. T-Test: To compare the average net_revenue between utm_source 'fb' and 'manual'.
+## Results
 
-Conclusion
-The analysis provides valuable insights into customer behavior, marketing effectiveness, and operational efficiency. The findings can help Markas Walet improve their strategies to increase repeat orders, optimize marketing campaigns, and reduce operational costs
+### Key Insights:
+
+- **Repeat Orders**: Analysis of customer repeat orders and identification of factors influencing repeat purchases.
+- **Marketing Performance**: Evaluation of marketing campaigns, sources, and content effectiveness in driving sales.
+- **Operational Efficiency**: Analysis of shipping costs and payment methods to identify opportunities for cost optimization.
+
+### Statistical Tests:
+
+- **Chi-Square Test**: To examine the association between `utm_content` and `status`.
+- **ANOVA**: To compare the average `net_revenue` across different `utm_campaign_type`.
+- **T-Test**: To compare the average `net_revenue` between `utm_source` 'fb' and 'manual'.
+
+## Conclusion
+
+The analysis provides valuable insights into customer behavior, marketing effectiveness, and operational efficiency. The findings can help Markas Walet improve their strategies to increase repeat orders, optimize marketing campaigns, and reduce operational costs.
