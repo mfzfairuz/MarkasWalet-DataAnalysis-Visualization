@@ -14,7 +14,6 @@ This repository contains the analysis of order data for Markas Walet, focusing o
 - [Analysis](#analysis)
 - [Results](#results)
 - [Conclusion](#conclusion)
-- [License](#license)
 
 ## Introduction
 
@@ -23,6 +22,10 @@ Markas Walet is a company that sells various products and services related to sw
 ## Dataset
 
 The dataset consists of order transactions with various attributes such as product, variation, quantity, price, shipping cost, status, payment method, and marketing campaign details.
+
+The analysis uses the following datasets:
+1. **orderonline_orders.csv**: Contains order details including product, variation, quantity, prices, shipping costs, and other relevant fields.
+2. **orderonline_wallet_histories.csv**: Contains wallet transaction histories including descriptions, value credits, statuses, and associated order IDs.
 
 ## Installation
 
